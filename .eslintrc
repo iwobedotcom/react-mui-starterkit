@@ -64,7 +64,7 @@
   },
   "rules": {
     // TypeScript-specific rules:
-    "@typescript-eslint/explicit-module-boundary-types": "error",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-explicit-any": "warn",
     "@typescript-eslint/no-unused-vars": [
       "error",
@@ -86,7 +86,7 @@
     "no-restricted-exports": 0,
     "react/no-children-prop": 0,
     "import/extensions": ["error", "ignorePackages", { "ts": "never", "tsx": "never" }],
-    // "linebreak-style": ["error", "windows"],
+    "linebreak-style": ["error", "windows"],
     "react/forbid-prop-types": 0,
     "react/react-in-jsx-scope": 0,
     "jsx-a11y/anchor-is-valid": 0,
