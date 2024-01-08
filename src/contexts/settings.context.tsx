@@ -8,17 +8,17 @@ import { SettingsType, SettingsContextValueType } from '@/types';
 const initialSettings: SettingsType = {
   themeColor: 'primary',
   mode: themeConfig.mode,
-  contentWidth: themeConfig.contentWidth,
+  contentWidth: themeConfig.contentWidth
 };
 
 // ** Create Context
 export const SettingsContext = React.createContext<SettingsContextValueType>({
   saveSettings: () => null,
-  settings: initialSettings,
+  settings: initialSettings
 });
 
 export const SettingsProvider = ({
-  children,
+  children
 }: {
   children: React.ReactNode;
 }): React.ReactElement => {

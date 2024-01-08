@@ -31,7 +31,7 @@ const themeConfig: ThemeConfigProps = {
 
   // ** Other Configs
   responsiveFontSizes: true /* true | false */,
-  disableRipple: false /* true | false */,
+  disableRipple: false /* true | false */
 };
 
 export default themeConfig;

@@ -8,6 +8,7 @@ All notable changes to this boilerplate will be documented in this file.
 
 ### Jan 8, 2024
 
+- Installed and Configured React-Router-Dom
 - Implemented MUI Theming.
 - Installation and implementation of the NProgress library.
 

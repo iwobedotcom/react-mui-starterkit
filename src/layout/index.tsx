@@ -11,8 +11,8 @@ import themeConfig from '@/configs/theme.config';
 import type { EmotionCache } from '@emotion/cache';
 import ThemeComponent from '@/theme/theme-component';
 import { createEmotionCache } from '@/utils/emotion-cache';
-// ** Next Import
-import { usePathname, useSearchParams } from 'next/navigation';
+// ** React Router Dom
+import { useLocation, useSearchParams } from 'react-router-dom';
 // ** Contexts
 import { SettingsConsumer, SettingsProvider } from '@/contexts/settings.context';
 
@@ -27,7 +27,7 @@ export default function GlobalLayout({
   children,
   emotionCache = clientSideEmotionCache
 }: GlobalLayoutProps): React.ReactElement {
-  const pathname = usePathname();
+  const pathname = useLocation();
   const searchParams = useSearchParams();
   React.useEffect(() => {
     if (themeConfig.routingLoader) {

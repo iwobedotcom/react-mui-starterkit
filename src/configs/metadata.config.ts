@@ -1,12 +1,12 @@
 export const metadata = {
   title: {
-    default: 'NextJS Playground',
-    template: '',
+    default: 'React MUI Starterkit',
+    template: ''
   },
   description: '',
-  applicationName: 'NextJS Playground',
+  applicationName: 'React MUI Starterkit',
   referrer: '',
   keywords: [],
   robots: {},
-  icons: {},
+  icons: {}
 };
